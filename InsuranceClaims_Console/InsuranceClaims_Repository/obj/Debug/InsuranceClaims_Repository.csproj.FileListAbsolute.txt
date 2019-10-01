@@ -1,0 +1,6 @@
+C:\Eleven Fifty Academy\0_Gold Badge\Projects\Claims ConsoleApp\InsuranceClaims_Console\InsuranceClaims_Repository\bin\Debug\InsuranceClaims_Repository.dll
+C:\Eleven Fifty Academy\0_Gold Badge\Projects\Claims ConsoleApp\InsuranceClaims_Console\InsuranceClaims_Repository\bin\Debug\InsuranceClaims_Repository.pdb
+C:\Eleven Fifty Academy\0_Gold Badge\Projects\Claims ConsoleApp\InsuranceClaims_Console\InsuranceClaims_Repository\obj\Debug\InsuranceClaims_Repository.csprojAssemblyReference.cache
+C:\Eleven Fifty Academy\0_Gold Badge\Projects\Claims ConsoleApp\InsuranceClaims_Console\InsuranceClaims_Repository\obj\Debug\InsuranceClaims_Repository.csproj.CoreCompileInputs.cache
+C:\Eleven Fifty Academy\0_Gold Badge\Projects\Claims ConsoleApp\InsuranceClaims_Console\InsuranceClaims_Repository\obj\Debug\InsuranceClaims_Repository.dll
+C:\Eleven Fifty Academy\0_Gold Badge\Projects\Claims ConsoleApp\InsuranceClaims_Console\InsuranceClaims_Repository\obj\Debug\InsuranceClaims_Repository.pdb

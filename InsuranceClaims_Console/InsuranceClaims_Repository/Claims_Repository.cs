@@ -16,7 +16,7 @@ namespace InsuranceClaims_Repository
 
         //(<----------------Add to List------------------->)
 
-        public void AddToQueue(Claims_Content content)
+        public void NewClaim(Claims_Content content)
         { 
 
             _claimsContentQueue.Enqueue(content);
@@ -28,8 +28,6 @@ namespace InsuranceClaims_Repository
             return _claimsContentQueue;
         }
 
-
-
         //(<----------------Seed List------------------->)
 
 
@@ -37,13 +35,13 @@ namespace InsuranceClaims_Repository
         public void Seedlist()
         {
 
-            Claims_Content claim = new Claims_Content(1, "Car", "Accident", 6000.00m 9/24/15, dateofclaim);
-            Claims_Content claimtwo = new Claims_Content(2, Home, "Natural Disaster", 23000.00m, 8/28/17, dateofclaim);
-            Claims_Content claimthree = new Claims_Content(3, "Theft", "Break In", 2400.00m, 9/21/18, dateofclaim);
+            Claims_Content claim = new Claims_Content(1, ClaimType.Car, "Accident", 6000.00m, new DateTime(2015, 09, 24), new DateTime(2015, 10, 01));
+            Claims_Content claimtwo = new Claims_Content(2, ClaimType.Home, "Fire", 2300.00m, new DateTime(2017, 08, 28), new DateTime (2017, 09, 23));
+            Claims_Content claimthree = new Claims_Content(3, ClaimType.Theft, "Break In", 2400.00m, new DateTime(2018, 09, 21), new DateTime(2018, 11, 02));
 
-            AddToQueue(claim);
-            AddToQueue(claimtwo);
-            AddToQueue(claimthree);
+            NewClaim(claim);
+            NewClaim(claimtwo);
+            NewClaim(claimthree);
 
 
         }

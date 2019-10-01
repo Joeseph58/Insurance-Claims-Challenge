@@ -11,7 +11,7 @@ namespace InsuranceClaims_Console
         static void Main(string[] args)
         {
             ProgramUI program = new ProgramUI();
-            program.RunMenu();
+            program.Run();
 
         }
     }
